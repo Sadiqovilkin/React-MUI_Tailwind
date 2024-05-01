@@ -1,6 +1,7 @@
 
 import { Box, Modal, Typography } from '@mui/material'
 import React from 'react'
+import AddSongs from './AddSongs';
 const style = {
     position: 'absolute',
     top: '50%',
@@ -40,6 +41,7 @@ const ViewSongs = ({songs}) => {
                     </Typography>
 
                     }
+                    
                 </Box>
             </Modal>
         </>

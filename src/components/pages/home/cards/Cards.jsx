@@ -3,6 +3,7 @@ import "./cards.scss"
 import Search from '../../../search_sort/Search'
 import Delete from './Delete'
 import ViewSongs from './ViewSongs'
+import AddSongs from './AddSongs'
 const Cards = ({ data, setData, getData }) => {
     const [searchval, setSearchval] = useState("")
     const filteredData = data.filter((card) => {
@@ -15,7 +16,8 @@ const Cards = ({ data, setData, getData }) => {
                 <Search setSearchval={setSearchval}  filteredData={filteredData} setData={setData}/>
                 <div className="row">
                     {filteredData && filteredData.map((card) =>
-                        <div key={card.id} className="col-lg-3 col-md-6 col-sm-12 g-4">
+                    
+                        <div key={card.id} className="col-lg-4 col-md-6 col-sm-12 g-4">
                             <div style={{ minHeight: "430px" }} className="card p-3">
                                 <div className="card_img">
                                     <img src={card.imgSrc} alt="" />
@@ -27,6 +29,7 @@ const Cards = ({ data, setData, getData }) => {
                                 </div>
                                 <div className="card-btns d-flex justify-content-between  ">
                                     <ViewSongs songs={card.songs}/>
+                                    <AddSongs card={card}/>
                                     <Delete getData={getData} id={card.id}/>
                                 </div>
                             </div>
