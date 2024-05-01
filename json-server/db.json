@@ -2,14 +2,49 @@
     "artist": [
         {
             "id": 1,
-            "name": "neylerem",
-            "imgSrc": "test",
+            "name": "Nazpəri Dostəliyeva ",
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGX2I4qLywW9E7bx-aWAJwc1X_W1vuutEp6ZFAcSclHw&s",
             "genre": "classic",
             "country": "azerbaijan",
-            "age": 25,
+            "age": 45,
+            "info": "lorem implusuum testdi bunlar",
+            "isVerified":true,
+            "songs":[
+                {
+                    "id":"s1",
+                    "songName":"Dilberim"
+            }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Xumar Qedimova",
+            "imgSrc": "https://oxu24.com/file/articles/2024/02/12/1707733691_xumar_qedimova_0256-1.jpg",
+            "genre": "classic",
+            "country": "azerbaijan",
+            "age": 47,
             "info": "lorem implusuum testdi bunlar",
             "isVerified":true,
             "songs":[]
+        },
+        {
+            "id": 3,
+            "name": "Aygun Kazimova",
+            "imgSrc": "https://images.genius.com/aa8df2c140682c772cff241c8b1ca399.1000x1000x1.jpg",
+            "genre": "classic",
+            "country": "azerbaijan",
+            "age": 55,
+            "info": "lorem implusuum testdi bunlar",
+            "isVerified":true,
+            "songs":[
+                {
+                    "id":"s11",
+                    "songName":"Dilberim"
+            },  {
+                "id":"s2",
+                "songName":"Dilberim"
+        }
+            ]
         }
     ]
 }
