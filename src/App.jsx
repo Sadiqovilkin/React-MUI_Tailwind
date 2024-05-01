@@ -7,12 +7,13 @@ function App() {
   const [data , setData] = useState([])
  const getData= ()=>{
 
+   getAll("artist").then((res)=>{
+     setData(res.data)
+  })
  }
  
   useEffect(()=>{
-    getAll("artist").then((res)=>{
-      setData(res.data)
-  })
+    getData()
   },[])
   return (
     <>
