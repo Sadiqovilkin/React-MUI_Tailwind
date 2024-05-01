@@ -6,12 +6,13 @@ import Home from './components/pages/home/Home'
 function App() {
   const [data , setData] = useState([])
  const getData= ()=>{
-  getAll("artist").then((res)=>{
-    setData(res.data)
-})
+
  }
+ 
   useEffect(()=>{
-    getData()
+    getAll("artist").then((res)=>{
+      setData(res.data)
+  })
   },[])
   return (
     <>
