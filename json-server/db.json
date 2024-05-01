@@ -1,0 +1,15 @@
+{
+    "artist": [
+        {
+            "id": 1,
+            "name": "neylerem",
+            "imgSrc": "test",
+            "genre": "classic",
+            "country": "azerbaijan",
+            "age": 25,
+            "info": "lorem implusuum testdi bunlar",
+            "isVerified":true,
+            "songs":[]
+        }
+    ]
+}
