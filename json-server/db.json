@@ -1,128 +1,128 @@
 {
-  "artist": [
-    {
-      "id": "1",
-      "name": "Nazpəri Dostəliyeva ",
-      "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGX2I4qLywW9E7bx-aWAJwc1X_W1vuutEp6ZFAcSclHw&s",
-      "genre": "classic",
-      "country": "azerbaijan",
-      "age": 45,
-      "info": "lorem implusuum testdi bunlar",
-      "isVerified": true,
-      "songs": [
+    "artist": [
         {
-          "id": "s1",
-          "songName": "Dilberim"
+            "id": "1",
+            "name": "Nazpəri Dostəliyeva ",
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGX2I4qLywW9E7bx-aWAJwc1X_W1vuutEp6ZFAcSclHw&s",
+            "genre": "classic",
+            "country": "azerbaijan",
+            "age": 45,
+            "info": "lorem implusuum testdi bunlar",
+            "isVerified": true,
+            "songs": [
+                {
+                    "id": "s1",
+                    "songName": "Dilberim"
+                },
+                {
+                    "id": "a1",
+                    "songName": "Ozume Saxlamisam"
+                }
+            ]
         },
         {
-          "id": "a1",
-          "songName": "Ozume Saxlamisam"
+            "id": "a2",
+            "name": "Xumar Qedimova",
+            "imgSrc": "https://oxu24.com/file/articles/2024/02/12/1707733691_xumar_qedimova_0256-1.jpg",
+            "genre": "classic",
+            "country": "azerbaijan",
+            "age": 47,
+            "info": "lorem implusuum testdi bunlar",
+            "isVerified": true,
+            "songs": []
+        },
+        {
+            "id": "s12s",
+            "name": "Deleting TEst",
+            "imgSrc": "https://static.vecteezy.com/system/resources/thumbnails/022/528/728/small_2x/ai-generated-generative-artificial-intelligence-hacker-with-hoodie-red-and-blue-neon-light-png.png",
+            "genre": "classic",
+            "country": "azerbaijan",
+            "age": 47,
+            "info": "lorem implusuum testdi bunlar",
+            "isVerified": true,
+            "songs": []
+        },
+        {
+            "id": "x2",
+            "name": "Deleting TEst",
+            "imgSrc": "https://static.vecteezy.com/system/resources/thumbnails/022/528/728/small_2x/ai-generated-generative-artificial-intelligence-hacker-with-hoodie-red-and-blue-neon-light-png.png",
+            "genre": "classic",
+            "country": "azerbaijan",
+            "age": 47,
+            "info": "lorem implusuum testdi bunlar",
+            "isVerified": true,
+            "songs": []
+        },
+        {
+            "id": "d2",
+            "name": "Deleting TEst",
+            "imgSrc": "https://static.vecteezy.com/system/resources/thumbnails/022/528/728/small_2x/ai-generated-generative-artificial-intelligence-hacker-with-hoodie-red-and-blue-neon-light-png.png",
+            "genre": "classic",
+            "country": "azerbaijan",
+            "age": 47,
+            "info": "lorem implusuum testdi bunlar",
+            "isVerified": true,
+            "songs": []
+        },
+        {
+            "id": "3",
+            "name": "Aygun Kazimova",
+            "imgSrc": "https://images.genius.com/aa8df2c140682c772cff241c8b1ca399.1000x1000x1.jpg",
+            "genre": "classic",
+            "country": "azerbaijan",
+            "age": 55,
+            "info": "lorem implusuum testdi bunlar",
+            "isVerified": true,
+            "songs": [
+                {
+                    "id": "s11",
+                    "songName": "Qorxuram"
+                },
+                {
+                    "id": "s2",
+                    "songName": "Ehtoyacim Var"
+                },
+                {
+                    "id": "s3",
+                    "songName": "Parol"
+                },
+                {
+                    "id": "s4",
+                    "songName": "Sag-Salamat"
+                }
+            ]
+        },
+        {
+            "0": "undefined[object Object]",
+            "id": "abd6"
+        },
+        {
+            "0": "undefined[object Object][object Object]",
+            "id": "aa5b"
+        },
+        {
+            "0": "undefined[object Object][object Object][object Object]",
+            "id": "23da"
+        },
+        {
+            "0": "undefined[object Object][object Object][object Object][object Object]",
+            "id": "5ba0"
+        },
+        {
+            "0": "undefined[object Object][object Object][object Object][object Object][object Object]",
+            "id": "f495"
+        },
+        {
+            "0": "undefined[object Object][object Object][object Object][object Object][object Object][object Object]",
+            "id": "79ff"
+        },
+        {
+            "0": "undefined[object Object][object Object][object Object][object Object][object Object][object Object][object Object]",
+            "id": "1202"
+        },
+        {
+            "0": "undefined[object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object]",
+            "id": "ebdf"
         }
-      ]
-    },
-    {
-      "id": "a2",
-      "name": "Xumar Qedimova",
-      "imgSrc": "https://oxu24.com/file/articles/2024/02/12/1707733691_xumar_qedimova_0256-1.jpg",
-      "genre": "classic",
-      "country": "azerbaijan",
-      "age": 47,
-      "info": "lorem implusuum testdi bunlar",
-      "isVerified": true,
-      "songs": []
-    },
-    {
-      "id": "s12s",
-      "name": "Deleting TEst",
-      "imgSrc": "https://static.vecteezy.com/system/resources/thumbnails/022/528/728/small_2x/ai-generated-generative-artificial-intelligence-hacker-with-hoodie-red-and-blue-neon-light-png.png",
-      "genre": "classic",
-      "country": "azerbaijan",
-      "age": 47,
-      "info": "lorem implusuum testdi bunlar",
-      "isVerified": true,
-      "songs": []
-    },
-    {
-      "id": "x2",
-      "name": "Deleting TEst",
-      "imgSrc": "https://static.vecteezy.com/system/resources/thumbnails/022/528/728/small_2x/ai-generated-generative-artificial-intelligence-hacker-with-hoodie-red-and-blue-neon-light-png.png",
-      "genre": "classic",
-      "country": "azerbaijan",
-      "age": 47,
-      "info": "lorem implusuum testdi bunlar",
-      "isVerified": true,
-      "songs": []
-    },
-    {
-      "id": "d2",
-      "name": "Deleting TEst",
-      "imgSrc": "https://static.vecteezy.com/system/resources/thumbnails/022/528/728/small_2x/ai-generated-generative-artificial-intelligence-hacker-with-hoodie-red-and-blue-neon-light-png.png",
-      "genre": "classic",
-      "country": "azerbaijan",
-      "age": 47,
-      "info": "lorem implusuum testdi bunlar",
-      "isVerified": true,
-      "songs": []
-    },
-    {
-      "id": "3",
-      "name": "Aygun Kazimova",
-      "imgSrc": "https://images.genius.com/aa8df2c140682c772cff241c8b1ca399.1000x1000x1.jpg",
-      "genre": "classic",
-      "country": "azerbaijan",
-      "age": 55,
-      "info": "lorem implusuum testdi bunlar",
-      "isVerified": true,
-      "songs": [
-        {
-          "id": "s11",
-          "songName": "Qorxuram"
-        },
-        {
-          "id": "s2",
-          "songName": "Ehtoyacim Var"
-        },
-        {
-          "id": "s3",
-          "songName": "Parol"
-        },
-        {
-          "id": "s4",
-          "songName": "Sag-Salamat"
-        }
-      ]
-    },
-    {
-      "0": "undefined[object Object]",
-      "id": "abd6"
-    },
-    {
-      "0": "undefined[object Object][object Object]",
-      "id": "aa5b"
-    },
-    {
-      "0": "undefined[object Object][object Object][object Object]",
-      "id": "23da"
-    },
-    {
-      "0": "undefined[object Object][object Object][object Object][object Object]",
-      "id": "5ba0"
-    },
-    {
-      "0": "undefined[object Object][object Object][object Object][object Object][object Object]",
-      "id": "f495"
-    },
-    {
-      "0": "undefined[object Object][object Object][object Object][object Object][object Object][object Object]",
-      "id": "79ff"
-    },
-    {
-      "0": "undefined[object Object][object Object][object Object][object Object][object Object][object Object][object Object]",
-      "id": "1202"
-    },
-    {
-      "0": "undefined[object Object][object Object][object Object][object Object][object Object][object Object][object Object][object Object]",
-      "id": "ebdf"
-    }
-  ]
+    ]
 }

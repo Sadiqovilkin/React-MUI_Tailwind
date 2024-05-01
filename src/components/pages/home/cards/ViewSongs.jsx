@@ -13,7 +13,7 @@ const style = {
     boxShadow: 24,
     p: 4,
 };
-const ViewSongs = ({songs}) => {
+const ViewSongs = ({ songs }) => {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
@@ -29,19 +29,19 @@ const ViewSongs = ({songs}) => {
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style}>
-                    { songs.length>1 ? songs.map((e)=>
-                    <Typography key={e.id} id="modal-modal-title" variant="h6" component="h2">
-                        {e.songName}
-                    </Typography>
-                   
-                )
-                    : <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                    {songs.length > 1 ? songs.map((e) =>
+                        <Typography key={e.id} id="modal-modal-title" variant="h6" component="h2">
+                            {e.songName}
+                        </Typography>
 
-                       This Artist Not Some songs
-                    </Typography>
+                    )
+                        : <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+
+                            This Artist Has not got  songs
+                        </Typography>
 
                     }
-                    
+
                 </Box>
             </Modal>
         </>
